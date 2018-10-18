@@ -16,4 +16,7 @@
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
 
     <integer name="config_deviceHardwareKeys">64</integer>
+
+    <!-- Whether device ignores the RSSNR signal implementation -->
+    <bool name="config_ignoreRssnrSignalLevel">true</bool>
 </resources>
