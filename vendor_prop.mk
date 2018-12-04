@@ -353,3 +353,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #lct liuxuan add the dom ignore time
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.ignore_dom_time=15
+
+#Density
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sf.lcd_density=403
