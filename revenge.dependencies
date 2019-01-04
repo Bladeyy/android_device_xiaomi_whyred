@@ -1,0 +1,22 @@
+ [
+  {
+     "repository"  : "android_kernel_xiaomi_whyred",
+     "target_path" : "kernel/xiaomi/whyred"
+  },
+  {
+     "repository"  : "android_vendor_xiaomi_whyred",
+     "target_path" : "vendor/xiaomi/whyred"
+  },
+  {
+     "remote"      : "github",
+     "repository"  : "PixelExperience-Devices/vendor_MiuiCamera",
+     "target_path" : "vendor/MiuiCamera",
+     "revision"    : "pie-whyred"
+  },
+  {
+     "remote"      : "github",
+     "repository"  : "Bladeyy/prebuilts_clang",
+     "target_path" : "prebuilts/clang/host/linux-x86/clang-8.0.6",
+     "revision"    : "clang-8.0.6"
+  }
+ ]
