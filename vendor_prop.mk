@@ -347,3 +347,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Pie Telephony blobs
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.qti.pie.telephony=1
+
+#Enable HAL3
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.camera.HAL3.enabled=1
