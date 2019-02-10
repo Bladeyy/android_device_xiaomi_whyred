@@ -12,11 +12,5 @@
      "repository"  : "PixelExperience-Devices/vendor_MiuiCamera",
      "target_path" : "vendor/MiuiCamera",
      "revision"    : "pie-whyred"
-  },
-  {
-     "remote"      : "github",
-     "repository"  : "Bladeyy/prebuilts_clang",
-     "target_path" : "prebuilts/clang/host/linux-x86/clang-8.0.8",
-     "revision"    : "clang-8.0.8"
   }
  ]
