@@ -219,6 +219,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.s5k3l8_ofilm.low.lux=379 \
     persist.s5k3l8_ofilm.light.lux=367
 
+# Enable HAL3
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.camera.HAL3.enabled=1
+
+# HAL1 apps list
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.camera.hal1.packagelist=com.whatsapp,com.intsig.camscanner,com.instagram.android
+
+#
 # PROPERTIES FOR IMS
 #
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -346,11 +355,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Pie Telephony blobs
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.qti.pie.telephony=1
-
-#Enable HAL3
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.camera.HAL3.enabled=1
-
-# HAL1 apps list
-PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.camera.hal1.packagelist=com.whatsapp,com.intsig.camscanner
