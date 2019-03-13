@@ -14,7 +14,7 @@
      "revision"    : "pie-whyred"
   },
   {
-     "remote"      : "github",
+     "remote"      : "gitlab",
      "repository"  : "PixelExperience/vendor_qcom_common",
      "target_path" : "vendor/qcom/common",
      "revision"    : "pie-caf"
