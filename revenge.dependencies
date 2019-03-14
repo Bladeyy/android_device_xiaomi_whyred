@@ -1,4 +1,4 @@
- [
+[
   {
      "repository"  : "android_kernel_xiaomi_whyred",
      "target_path" : "kernel/xiaomi/whyred"
@@ -19,4 +19,4 @@
      "target_path" : "vendor/qcom/common",
      "revision"    : "pie-caf"
   }
- ]
+]
