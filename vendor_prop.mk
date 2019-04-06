@@ -353,7 +353,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #lct liuxuan add the dom ignore time
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.ignore_dom_time=15
-
-# Maintainer
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.mk.maintainer=guaiyihu

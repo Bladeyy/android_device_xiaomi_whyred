@@ -26,10 +26,14 @@ $(call inherit-product, vendor/xiaomi/whyred/whyred-vendor.mk)
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_prop.mk
 
+# Enable extra vendor libs
+ENABLE_EXTRA_VENDOR_LIBS := true
+PRODUCT_PACKAGES += vendor-extra-libs
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-mokee
+    $(LOCAL_PATH)/overlay-ros
 
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
@@ -286,10 +290,6 @@ PRODUCT_PACKAGES += \
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.xiaomi_sdm660
-
-# LiveDisplay native
-PRODUCT_PACKAGES += \
-    vendor.mokee.livedisplay@2.0-service-sdm
 
 # Media
 PRODUCT_COPY_FILES += \
