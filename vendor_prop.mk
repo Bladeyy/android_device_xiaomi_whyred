@@ -20,7 +20,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.shutdown_timeout=0 \
     ro.frp.pst=/dev/block/bootdevice/by-name/frp \
     ro.opengles.version=196610 \
-    ro.qualcomm.cabl=0 \
     vendor.qcom.bluetooth.soc=cherokee \
     af.fast_track_multiplier=1 \
     vendor.audio_hal.period_size=192 \
@@ -31,7 +30,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.tunnel.encode=false \
     persist.vendor.audio.ras.enabled=false \
     vendor.audio.offload.buffer.size.kb=64 \
-    audio.offload.min.duration.secs=30 \
     audio.offload.video=true \
     vendor.audio.offload.track.enable=false \
     audio.deep_buffer.media=true \
@@ -59,27 +57,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.adm.buffering.ms=6 \
     ro.vendor.sensors.facing=false \
     ro.vendor.sensors.cmc=false \
-    ro.vendor.sdk.sensors.gestures=false \
-    persist.rild.nitz_plmn="" \
-    persist.rild.nitz_long_ons_0="" \
-    persist.rild.nitz_long_ons_1="" \
-    persist.rild.nitz_long_ons_2="" \
-    persist.rild.nitz_long_ons_3="" \
-    persist.rild.nitz_short_ons_0="" \
-    persist.rild.nitz_short_ons_1="" \
-    persist.rild.nitz_short_ons_2="" \
-    persist.rild.nitz_short_ons_3="" \
-    ril.subscription.types=NV,RUIM \
-    DEVICE_PROVISIONED=1 \
-    rild.libpath=/system/vendor/lib64/libril-qc-hal-qmi.so \
-    ro.telephony.default_network=22,20
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    debug.sf.enable_hwc_vds=1 \
-    debug.sf.hw=1 \
-    debug.sf.latch_unsignaled=1 \
-    vendor.gralloc.enable_fb_ubwc=1 \
-    dev.pm.dyn_samplingrate=1
+    ro.vendor.sdk.sensors.gestures=false
 
 #Set AudioFlinger client heap size
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -87,7 +65,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.hw.binder.size_kbyte=1024
-
 #
 # system props for the cne module
 #
