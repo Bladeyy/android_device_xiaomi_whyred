@@ -1,10 +1,14 @@
 [
   {
-     "repository"  : "android_kernel_xiaomi_whyred",
-     "target_path" : "kernel/xiaomi/whyred"
+     "remote" : "github",
+     "repository"  : "GuaiYiHu/android_kernel_xiaomi_whyred",
+     "target_path" : "kernel/xiaomi/whyred",
+     "revision" : "mkp"
   },
   {
-     "repository"  : "android_vendor_xiaomi_whyred",
-     "target_path" : "vendor/xiaomi/whyred"
+     "remote" : "github",
+     "repository"  : "GuaiYiHu/android_vendor_xiaomi_whyred",
+     "target_path" : "vendor/xiaomi/whyred",
+     "revision" : "mkp"
   }
 ]
